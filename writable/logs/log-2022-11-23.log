@@ -1,0 +1,275 @@
+CRITICAL - 2022-11-23 18:50:41 --> Undefined variable: filesampul
+in APPPATH\Controllers\Ketos.php on line 198.
+ 1 APPPATH\Controllers\Ketos.php(198): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: filesampul', 'APPPATH\\Controllers\\Ketos.php', 198, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ketos->update('0')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:51:07 --> unlink(img/1669174974_8fcfdfeb01f0450a8be9.jpeg): No such file or directory
+in APPPATH\Controllers\Ketos.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/1669174974_8fcfdfeb01f0450a8be9.jpeg): No such file or directory', 'APPPATH\\Controllers\\Ketos.php', 206, [...])
+ 2 APPPATH\Controllers\Ketos.php(206): unlink('img/1669174974_8fcfdfeb01f0450a8be9.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ketos->update('0')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:51:27 --> Undefined index: foto
+in APPPATH\Controllers\Ketos.php on line 137.
+ 1 APPPATH\Controllers\Ketos.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: foto', 'APPPATH\\Controllers\\Ketos.php', 137, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ketos->delete('0')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:53:37 --> unlink(img/1669174974_8fcfdfeb01f0450a8be9.jpeg): No such file or directory
+in APPPATH\Controllers\Ketos.php on line 139.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/1669174974_8fcfdfeb01f0450a8be9.jpeg): No such file or directory', 'APPPATH\\Controllers\\Ketos.php', 139, [...])
+ 2 APPPATH\Controllers\Ketos.php(139): unlink('img/1669174974_8fcfdfeb01f0450a8be9.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ketos->delete('0')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 18:56:57 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\pwpb\pilketos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\pwpb\pilketos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\pwpb\pilketos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\pwpb\pilketos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\pwpb\pilketos\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\pwpb\pilketos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\pwpb\pilketos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\pwpb\pilketos\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\pwpb\pilketos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\pwpb\pilketos\app\Controllers\Ketos.php(219): CodeIgniter\BaseModel->save(Array)
+#9 C:\pwpb\pilketos\system\CodeIgniter.php(904): App\Controllers\Ketos->update('0')
+#10 C:\pwpb\pilketos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+#11 C:\pwpb\pilketos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\pwpb\pilketos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\pwpb\pilketos\system\Commands\Server\rewrite.php(43): require_once('C:\\pwpb\\pilketo...')
+#14 {main}
+CRITICAL - 2022-11-23 18:56:57 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ketos` (`id`, `nama_kandidat`, `slug`, `kelas`, `visi`, `misi`, `sampul`) VALUES (\'0\', \'Marklee\', \'marklee\', \'127\', \'Leader yg baik\', \'Leader keren\', \'1669251403_fe6653e2afdd37a7b8eb.jpeg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ketos` (`id`, `nama_kandidat`, `slug`, `kelas`, `visi`, `misi`, `sampul`) VALUES (\'0\', \'Marklee\', \'marklee\', \'127\', \'Leader yg baik\', \'Leader keren\', \'1669251403_fe6653e2afdd37a7b8eb.jpeg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ketos` (`id`, `nama_kandidat`, `slug`, `kelas`, `visi`, `misi`, `sampul`) VALUES (\'0\', \'Marklee\', \'marklee\', \'127\', \'Leader yg baik\', \'Leader keren\', \'1669251403_fe6653e2afdd37a7b8eb.jpeg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ketos` (`id`, `nama_kandidat`, `slug`, `kelas`, `visi`, `misi`, `sampul`) VALUES (:id:, :nama_kandidat:, :slug:, :kelas:, :visi:, :misi:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Ketos.php(219): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ketos->update('0')
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-23 18:59:32 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2366.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+ 3 APPPATH\Controllers\Ketos.php(142): CodeIgniter\BaseModel->delete('0')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ketos->delete('0')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 19:03:21 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\pwpb\pilketos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\pwpb\pilketos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\pwpb\pilketos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\pwpb\pilketos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\pwpb\pilketos\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\pwpb\pilketos\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\pwpb\pilketos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\pwpb\pilketos\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\pwpb\pilketos\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\pwpb\pilketos\app\Controllers\Ketos.php(125): CodeIgniter\BaseModel->save(Array)
+#9 C:\pwpb\pilketos\system\CodeIgniter.php(904): App\Controllers\Ketos->save()
+#10 C:\pwpb\pilketos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+#11 C:\pwpb\pilketos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\pwpb\pilketos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\pwpb\pilketos\system\Commands\Server\rewrite.php(43): require_once('C:\\pwpb\\pilketo...')
+#14 {main}
+CRITICAL - 2022-11-23 19:03:21 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ketos` (`nama_kandidat`, `slug`, `kelas`, `visi`, `misi`, `sampul`) VALUES (\'ldkjfdknfj\', \'ldkjfdknfj\', \'djjs\', \'sjdhjf\', \'jdsdjhd\', \'default.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ketos` (`nama_kandidat`, `slug`, `kelas`, `visi`, `misi`, `sampul`) VALUES (\'ldkjfdknfj\', \'ldkjfdknfj\', \'djjs\', \'sjdhjf\', \'jdsdjhd\', \'default.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ketos` (`nama_kandidat`, `slug`, `kelas`, `visi`, `misi`, `sampul`) VALUES (\'ldkjfdknfj\', \'ldkjfdknfj\', \'djjs\', \'sjdhjf\', \'jdsdjhd\', \'default.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ketos` (`nama_kandidat`, `slug`, `kelas`, `visi`, `misi`, `sampul`) VALUES (:nama_kandidat:, :slug:, :kelas:, :visi:, :misi:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Ketos.php(125): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Ketos->save()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ketos))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 19:27:47 --> mysqli_sql_exception: Table 'pikos.orang' doesn't exist in C:\pwpb\pilketos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\pwpb\pilketos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\pwpb\pilketos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\pwpb\pilketos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\pwpb\pilketos\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\pwpb\pilketos\system\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\pwpb\pilketos\system\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+#6 C:\pwpb\pilketos\app\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+#7 C:\pwpb\pilketos\system\CodeIgniter.php(904): App\Controllers\Orang->index()
+#8 C:\pwpb\pilketos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#9 C:\pwpb\pilketos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\pwpb\pilketos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\pwpb\pilketos\system\Commands\Server\rewrite.php(43): require_once('C:\\pwpb\\pilketo...')
+#12 {main}
+CRITICAL - 2022-11-23 19:27:47 --> Table 'pikos.orang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Orang->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 19:29:25 --> mysqli_sql_exception: Table 'pikos.orang' doesn't exist in C:\pwpb\pilketos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\pwpb\pilketos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\pwpb\pilketos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\pwpb\pilketos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\pwpb\pilketos\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\pwpb\pilketos\system\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\pwpb\pilketos\system\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+#6 C:\pwpb\pilketos\app\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+#7 C:\pwpb\pilketos\system\CodeIgniter.php(904): App\Controllers\Orang->index()
+#8 C:\pwpb\pilketos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#9 C:\pwpb\pilketos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\pwpb\pilketos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\pwpb\pilketos\system\Commands\Server\rewrite.php(43): require_once('C:\\pwpb\\pilketo...')
+#12 {main}
+CRITICAL - 2022-11-23 19:29:25 --> Table 'pikos.orang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Orang->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 19:40:23 --> mysqli_sql_exception: Table 'pikos.orang' doesn't exist in C:\pwpb\pilketos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\pwpb\pilketos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\pwpb\pilketos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\pwpb\pilketos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\pwpb\pilketos\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\pwpb\pilketos\system\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\pwpb\pilketos\system\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+#6 C:\pwpb\pilketos\app\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+#7 C:\pwpb\pilketos\system\CodeIgniter.php(904): App\Controllers\Orang->index()
+#8 C:\pwpb\pilketos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#9 C:\pwpb\pilketos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\pwpb\pilketos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\pwpb\pilketos\system\Commands\Server\rewrite.php(43): require_once('C:\\pwpb\\pilketo...')
+#12 {main}
+CRITICAL - 2022-11-23 19:40:23 --> Table 'pikos.orang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Orang->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 19:41:41 --> mysqli_sql_exception: Table 'pikos.orang' doesn't exist in C:\pwpb\pilketos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\pwpb\pilketos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\pwpb\pilketos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\pwpb\pilketos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\pwpb\pilketos\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\pwpb\pilketos\system\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\pwpb\pilketos\system\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+#6 C:\pwpb\pilketos\app\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+#7 C:\pwpb\pilketos\system\CodeIgniter.php(904): App\Controllers\Orang->index()
+#8 C:\pwpb\pilketos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#9 C:\pwpb\pilketos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\pwpb\pilketos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\pwpb\pilketos\system\Commands\Server\rewrite.php(43): require_once('C:\\pwpb\\pilketo...')
+#12 {main}
+CRITICAL - 2022-11-23 19:41:41 --> Table 'pikos.orang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Orang->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-23 20:15:36 --> mysqli_sql_exception: Table 'pikos.orang' doesn't exist in C:\pwpb\pilketos\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\pwpb\pilketos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\pwpb\pilketos\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\pwpb\pilketos\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\pwpb\pilketos\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\pwpb\pilketos\system\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\pwpb\pilketos\system\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+#6 C:\pwpb\pilketos\app\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+#7 C:\pwpb\pilketos\system\CodeIgniter.php(904): App\Controllers\Orang->index()
+#8 C:\pwpb\pilketos\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+#9 C:\pwpb\pilketos\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\pwpb\pilketos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\pwpb\pilketos\system\Commands\Server\rewrite.php(43): require_once('C:\\pwpb\\pilketo...')
+#12 {main}
+CRITICAL - 2022-11-23 20:15:36 --> Table 'pikos.orang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `orang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `orang`', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Orang.php(27): CodeIgniter\BaseModel->paginate(6, 'orang')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Orang->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orang))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

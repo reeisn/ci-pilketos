@@ -1,0 +1,180 @@
+CRITICAL - 2022-09-06 20:30:42 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku/index', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku/index')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku/index')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 20:35:02 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku/index', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku/index')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku/index')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 20:35:04 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'pages/contact', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('pages/contact')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('pages/contact')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 20:47:41 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'pages/contact', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('pages/contact')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('pages/contact')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 20:52:13 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'pages/contact', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('pages/contact')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('pages/contact')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 20:52:17 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'pages/about', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('pages/about')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('pages/about')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 20:52:23 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku/index', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku/index')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku/index')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:03:47 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku/index', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku/index')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku/index')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:06:41 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku/index', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku/index')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku/index')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:09:29 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku/index', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku/index')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku/index')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:15:41 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku/index', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku/index')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku/index')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:16:34 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku/index', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku/index')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku/index')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:35:06 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'pages/contact', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('pages/contact')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('pages/contact')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:35:12 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'pages/about', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('pages/about')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('pages/about')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:35:55 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:36:01 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'pages/contact', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('pages/contact')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('pages/contact')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:36:35 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'buku', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('buku')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('buku')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-06 21:36:39 --> preg_match(): Compilation failed: missing closing parenthesis at offset 13
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 13', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^buku/([^/]+$#u', 'pages/about', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('pages/about')
+ 4 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('pages/about')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

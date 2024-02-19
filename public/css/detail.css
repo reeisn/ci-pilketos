@@ -1,0 +1,43 @@
+body {
+    background-color: #fefff3;
+  }
+   
+  .navbar {
+      background-color: #E1DACA;
+      color: #B29079;
+  }
+  /* Modify brand and text color */
+   
+  .navbar .nav-link {
+    color: #B29079;
+  }
+  .navbar li:hover {
+    background-color:#182434 ;
+  }
+  .navbar .navbar-brand {
+    color: #B29079;
+  }
+  .navbar .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+      color: #B29079;
+  }
+  .table .thead {
+    background-color: thistle;
+    color: blue;
+  }
+
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  h1 {
+    color: #693c1f;
+  }
+
+table > tbody > tr > * {
+    vertical-align: middle;
+}

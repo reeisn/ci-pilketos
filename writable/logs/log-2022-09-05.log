@@ -1,0 +1,125 @@
+CRITICAL - 2022-09-05 19:53:51 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 6.
+ 1 APPPATH\Views\layout\template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('buku/index', [], true)
+ 6 APPPATH\Controllers\Buku.php(12): view('buku/index')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Buku->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:10:18 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:11:08 --> Class "App\Controllers\bukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:11:42 --> Class "App\Controllers\bukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:11:43 --> Class "App\Controllers\bukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:12:04 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:12:05 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:12:05 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:12:06 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:12:06 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:12:06 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:12:07 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:14:19 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:14:20 --> Class "App\Controllers\BukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:14:49 --> Class "App\Controllers\bukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:14:50 --> Class "App\Controllers\bukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-05 21:14:50 --> Class "App\Controllers\bukuModel" not found
+in APPPATH\Controllers\Buku.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Buku->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,32 @@
+body {
+    background-color: #fefff3;
+  }
+   
+  .navbar {
+      background-color: #E1DACA;
+      color: #5d351b;
+  }
+  /* Modify brand and text color */
+   
+  .navbar .nav-link {
+    color: #583218; 
+  }
+  .navbar li:hover {
+    background-color:#182434 ;
+  }
+  .navbar .navbar-brand {
+    color: #583218;
+  }
+  .navbar .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+      color: #B29079;
+  }
+  .table .thead {
+    background-color: #36281f;
+    color: #fefcfb;
+  }
+
+
+table > tbody > tr > * {
+    vertical-align: middle;
+}
